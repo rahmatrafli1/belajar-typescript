@@ -3,6 +3,44 @@
 
 // obj();
 
+// Unknown
+// let nilaiUjian: unknown;
+// nilaiUjian = 100;
+
+// console.log(typeof nilaiUjian);
+
+// let nilaiAkhir;
+// if (typeof nilaiUjian === 'number'){
+//     nilaiAkhir = nilaiUjian + 100;
+//     console.log('nilai akhir: '+nilaiAkhir);
+// } else {
+//     console.log('tidak diketahui nilai akhirnya');
+// }
+
+// Boolean 
+// let benarAtausalah:boolean = true;
+// let benar:true = true;
+// let salah = false;
+
+// benar = false;
+
+// Number & bigint
+// let harga1:number = 100;
+// let harga2:number = 20_000_000;
+
+// let angkaBesar:bigint = 100n;
+
+// String
+// const userName: string = 'Rafli';
+// console.log(userName.charAt(0));
+// console.log(userName.toUpperCase());
+
+// symbol
+let a = Symbol('a');
+let b:symbol = Symbol('a');
+
+console.log(a === b);
+
 // Latihan 1
 // let nilaiUjian: unknown;
 
@@ -22,17 +60,3 @@
 // a = false;
 
 // console.log(a);
-
-// Unknown
-let nilaiUjian: unknown;
-nilaiUjian = 100;
-
-console.log(typeof nilaiUjian);
-
-let nilaiAkhir;
-if (typeof nilaiUjian === 'number'){
-    nilaiAkhir = nilaiUjian + 100;
-    console.log('nilai akhir: '+nilaiAkhir);
-} else {
-    console.log('tidak diketahui nilai akhirnya');
-}
