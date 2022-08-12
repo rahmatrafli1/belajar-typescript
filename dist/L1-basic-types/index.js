@@ -27,9 +27,21 @@
 // console.log(userName.charAt(0));
 // console.log(userName.toUpperCase());
 // symbol
-let a = Symbol('a');
-let b = Symbol('a');
-console.log(a === b);
+// let a = Symbol('a');
+// let b:symbol = Symbol('a');
+// console.log(a === b);
+// Object
+let person = {
+    name: 'Rafli',
+    umur: 24
+};
+let daftarKursiBus = {
+    '1A': 'Rafli',
+    '1B': 'Ahmad'
+};
+console.log("Name:", person.name);
+let car = { t: 'Madza' };
+console.log("Car:", car.t);
 // Latihan 1
 // let nilaiUjian: unknown;
 // nilaiUjian = 100;

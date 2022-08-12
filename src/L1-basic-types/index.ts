@@ -36,10 +36,35 @@
 // console.log(userName.toUpperCase());
 
 // symbol
-let a = Symbol('a');
-let b:symbol = Symbol('a');
+// let a = Symbol('a');
+// let b:symbol = Symbol('a');
 
-console.log(a === b);
+// console.log(a === b);
+
+// Object
+let person: {
+    name: string,
+    umur: number,
+    partner?: string
+} = {
+    name: 'Rafli',
+    umur: 24
+}
+
+let daftarKursiBus: {
+    [nomorKursi: string] : string
+} = {
+    '1A' : 'Rafli',
+    '1B' : 'Ahmad'
+}
+
+console.log("Name:",person.name);
+
+// Latihan Object Type
+type Car = {t: string}; let car: Car = {t: 'Madza'}
+
+console.log("Car:",car.t);
+
 
 // Latihan 1
 // let nilaiUjian: unknown;
